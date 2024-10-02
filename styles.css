@@ -1,7 +1,6 @@
 body {
     background-color: rgb(214, 207, 220);
     margin: 0px;
-    background-image: url("agua.jpg");
     background-size: 1300px;
 }
 
@@ -11,4 +10,20 @@ padding: 5px;
 }
 .logo {
     width: 50px;
+    background-color: rgb(64, 226, 43);
+}
+.main-navigation {
+    background-color: blueviolet;
+}
+.main-navigation a {
+    color: rgb(255, 248, 43);
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+}
+.main-navigation a:hover {
+    background-color: rgb(255, 248, 43);
+    color: blueviolet;
+};
 }
