@@ -4,6 +4,7 @@
     <title>Website muito louco</title>
     <link rel="icon" href="Coffee Tea Clipart Transparent PNG Hd, Coffee And Tea, Aroma, Background, Bean PNG Image For Free Download.jpeg"/>;
     <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
@@ -13,16 +14,24 @@
         </a>
         <nav class="main-navigation">
             <a href="index.html">Home</a>
-            <a href="tea.html">Tea</a>
+            <div class="dropdown">
+                <a href="tea.html">Tea</a>
+                <nav class="dropdown-menu">
+                    <a href="relaxingtea.html">Relaxing</a>
+                    <a hred="cafeinetea.html">Cafeine</a>
+                </nav>
+            </div>
+            
             <a href="blog.html">Blog</a>
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
         </nav>
     </header>
     <div class="banner">
-        <h1>Welcome to this tea website</h1>
-        
-        <h1>The best tea ever. Try it!</h1>
+        <h1>Welcome to this tea website <br>
+            The best tea ever. Try it!
+
+        </h1>
         <a class="banner-button" href="tea.html">
             Buy now here!
         </a>
@@ -31,30 +40,47 @@
         <!--Card one-->
         <div class="card">
             <img src="ebt.jpg" alt="ebt">
+            <div class="card-content">
                 <h4>English Breakfast Tea</h4>
                 <p>Most famous tea</p>
                 <a href="tea.html">EBT</a>
+            </div>
         </div>
         <!--Card two-->
         <div class="card">
             <img src="chai-latte.jpg" alt="chai">
+            <div class="card-content">
                 <h4>Chai Latte</h4>
                 <p>Most delicious tea</p>
-                <a href="tea.html">EBT</a>
+                <a href="tea.html">Chai latte</a>
+            </div>
         </div>
          <!--Card three-->
          <div class="card">
             <img src="100 kind of teas.jpg" alt="100kind">
+            <div class="card-content">
                 <h4>100 kinds os tea</h4>
                 <p>Tea for everyone</p>
-                <a href="tea.html">EBT</a>
+                <a href="tea.html">More Teas</a>
+            </div>
         </div>
 
     </main>
 
 
     <footer class="main-footer">
-        &copy; 2024 Sarinne Rodrigues
+        <p class="copyright">&copy; 2024 Sarinne Rodrigues</p>
+        <nav class="social">
+            <a href="https://facebook.com">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://instagram.com">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://youtube.com">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+        </nav>
     </footer>
     
    
